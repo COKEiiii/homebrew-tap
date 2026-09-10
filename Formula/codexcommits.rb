@@ -5,21 +5,21 @@ class Codexcommits < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.2.2/codexcommits_macOS_arm64.tar.gz"
-      sha256 "ffc99e9bec4bfcfc274434ce5ddd4cdabf58648c23e8dfa6590ef9b1780220b5"
+      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.3.0/codexcommits_macOS_arm64.tar.gz"
+      sha256 "4d0d8070d22a30fe5fd5b737796cf53ead88b14e535eaaa74f899872b2ec084e"
     else
-      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.2.2/codexcommits_macOS_x86_64.tar.gz"
-      sha256 "391e246cfe1e280f37466acfe5622d99acea7dcc5e9c9db9a9dfc2c1d5462477"
+      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.3.0/codexcommits_macOS_x86_64.tar.gz"
+      sha256 "1e450958b61a2ca1edd230b9bb8c17d2f7cc6bbd2e2d07f45cb3ac0772607c0d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.2.2/codexcommits_Linux_arm64.tar.gz"
-      sha256 "8edb641f9427adb8827db599915ed06e770cbbfbef05d71bbe0881c28ada5ee0"
+      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.3.0/codexcommits_Linux_arm64.tar.gz"
+      sha256 "39bdeb8eb1b28ebad321cc118e40dc660f78c0d74854f58e34c5b17d40d82479"
     else
-      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.2.2/codexcommits_Linux_x86_64.tar.gz"
-      sha256 "e6494473933401a59bdafc7558cc0e61a4e95e1bece4e8b122890d2adc7ab4dc"
+      url "https://github.com/COKEiiii/codexcommits/releases/download/v0.3.0/codexcommits_Linux_x86_64.tar.gz"
+      sha256 "4fcf3186647dfc0983bf2d42813afd7bdd357c3cb6ac897efee315145d1fed39"
     end
   end
 
