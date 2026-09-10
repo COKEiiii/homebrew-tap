@@ -1,7 +1,6 @@
 class Codexcommits < Formula
   desc "Generate reviewed Conventional Commits with the Codex CLI"
   homepage "https://github.com/COKEiiii/codexcommits"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
